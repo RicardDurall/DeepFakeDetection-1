@@ -3,8 +3,7 @@
 This repository provides the official Python implementation of Unmasking DeepFake with simple Features. 
 
 ![Overview of the pipeline](imgs/pipeline.png) 
-Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a 
-training block, where a classifier uses the new transformed features to determine whether the face is real or not. Notice that input images are grey-scaled 
+Overview of the pipeline used in our approach. It contains two main blocks, a pre-processing where the input istransformed to a more convenient domain and a training block, where a classifier uses the new transformed features to determine whether the face is real or not. Notice that input images are grey-scaled 
 before DFT.
 
 ## Dependencies
@@ -30,10 +29,7 @@ Test accuracy using SVM, logistic regression and k-means classifier under differ
 ![Faces-HQ](imgs/results1.png) 
 
 ## Detection DeepFakeDetection (FaceForensics++)
- [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with
-different automated face manipulation methods. Additionally,it is hosting DeepFakeDetection Dataset. In particular, this dataset contains 363 original
-sequences from 28 paid actors in 16 different scenes as well as over 3000 manipulated videos using DeepFakes and their corresponding binary masks.
-All videos contain a trackable mostly frontal face without occlusions which enables automated tampering methods to generate realistic forgeries.
+ [FaceForensics++](https://github.com/ondyari/FaceForensics) is a forensics dataset consisting of video sequences that have been modified with different automated face manipulation methods. Additionally,it is hosting DeepFakeDetection Dataset. In particular, this dataset contains 363 original sequences from 28 paid actors in 16 different scenes as well as over 3000 manipulated videos using DeepFakes and their corresponding binary masks. All videos contain a trackable mostly frontal face without occlusions which enables automated tampering methods to generate realistic forgeries.
 
 Click [here](/Experiments_DeepFakeDetection) to go the experiments on DeepFakeDetection.
 
