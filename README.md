@@ -15,7 +15,6 @@ Tested on Python 3.6.x.
 * [Matplotlib](https://matplotlib.org/) (3.1.1)
 
 
-
 ## Detection Faces-HQ 
 To the best of our knowledge, no public dataset gathers images containing both artificially and real faces, therefore, we have created our own called Faces-HQ.
 In order to have a sufficient variety of faces, we have chosen to download and label, images available from [CelebA-HQ dataset](https://arxiv.org/abs/1710.10196),
